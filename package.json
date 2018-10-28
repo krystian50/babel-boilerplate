@@ -1,0 +1,19 @@
+{
+  "name": "web-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server lib -p 8080",
+    "build:watch": "npx babel --watch src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-preset-env": "^1.7.0",
+    "live-server": "^1.2.0"
+  }
+}
